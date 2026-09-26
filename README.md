@@ -6,6 +6,8 @@ This template is built around the tools provided by [Astral](https://astral.sh/)
 
 After copying or recreating the template, the Python project can be managed by `uv`. It handles dependencies and executes tools, while automatically keeping the virtual environment in sync. Please refer to the [uv documentation](https://docs.astral.sh/uv/) for a complete overview.
 
+Configure the tools triggered by `pre-commit` according to the project's needs in `pyproject.toml`. For example, [select lint rules](https://docs.astral.sh/ruff/linter/#rule-selection) for `ruff` or [exclude files](https://docs.astral.sh/ty/exclusions/) from being analyzed by `ty`.
+
 ### Examples
 
 Add a dependency and run the template app.
