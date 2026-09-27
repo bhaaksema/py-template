@@ -1,4 +1,4 @@
-# Opinionated template for Python projects
+# Template for Python projects
 
 This template is built around the tools provided by [Astral](https://astral.sh/). Specifically, it uses `uv` (project management), `ruff` (linting and formatting) and `ty` (type checking). Their versions are pinned across local development and continuous integration via the [pre-commit](https://pre-commit.com/) configuration.
 
